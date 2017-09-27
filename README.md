@@ -1,4 +1,4 @@
-# techPage
+# TechPage
 
 ### 项目描述
 
