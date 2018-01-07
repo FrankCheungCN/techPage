@@ -9,3 +9,5 @@
 - jsonp实现跨域获取百度搜索接口
 - 实现数据懒加载
 - 实现函数节流
+
+You can visit the website from the url: https://frankcheungcn.github.io/TechPage/
