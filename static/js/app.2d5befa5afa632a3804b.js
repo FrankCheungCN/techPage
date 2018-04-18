@@ -285,6 +285,15 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ 1:
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__("FTkx");
+module.exports = __webpack_require__("NHnr");
+
+
+/***/ }),
+
 /***/ "314i":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -376,7 +385,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 __WEBPACK_IMPORTED_MODULE_3_raven_js___default.a.config('https://2522b1744bae49e0b6d73029c4a65d7c@sentry.io/1183649', {
-  release: "238949649",
+  release: "1279c4b9207aa932a9ba8e445239f374f49d7923",
   debug: true
 }).addPlugin(__WEBPACK_IMPORTED_MODULE_4_raven_js_plugins_vue___default.a, __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]).install();
 
@@ -726,8 +735,6 @@ __webpack_require__("hKoQ").polyfill();
     getNews: function getNews(param) {
       var _this2 = this;
 
-      var asdf = [];
-      console.log(asdf[0][2]);
       this.curPage = 1;
       this.curType = param;
       __WEBPACK_IMPORTED_MODULE_0__bower_components_axios_dist_axios_min___default.a.get('https://gank.io/api/data/' + this.curType + '/10/1').then(function (response) {
@@ -831,7 +838,12 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
         }
       }
     })]), _vm._v(" "), _c('div', {
-      staticClass: "news-info-wrap"
+      staticClass: "news-info-wrap",
+      on: {
+        "click": function($event) {
+          _vm.console.log(111)
+        }
+      }
     }, [_c('span', {
       staticClass: "info-name"
     }, [_vm._v("创建时间：")]), _c('span', {
@@ -938,5 +950,5 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ })
 
-},["NHnr"]);
-//# sourceMappingURL=app.0d34778ecf7ad22b91cf.js.map
+},[1]);
+//# sourceMappingURL=app.2d5befa5afa632a3804b.js.map
