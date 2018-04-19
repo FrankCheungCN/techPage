@@ -675,6 +675,10 @@ __webpack_require__("hKoQ").polyfill();
   },
 
   methods: {
+    testBugRecord: function testBugRecord() {
+      var a = [];
+      console.log(a[1][1]);
+    },
     toTop: function toTop() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
@@ -840,9 +844,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     })]), _vm._v(" "), _c('div', {
       staticClass: "news-info-wrap",
       on: {
-        "click": function($event) {
-          _vm.console.log(111)
-        }
+        "click": _vm.testBugRecord
       }
     }, [_c('span', {
       staticClass: "info-name"
@@ -951,4 +953,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 },[1]);
-//# sourceMappingURL=app.2d5befa5afa632a3804b.js.map
+//# sourceMappingURL=app.4562ab5e73687c59c7ca.js.map
