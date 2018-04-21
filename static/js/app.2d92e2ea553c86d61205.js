@@ -385,7 +385,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 __WEBPACK_IMPORTED_MODULE_3_raven_js___default.a.config('https://2522b1744bae49e0b6d73029c4a65d7c@sentry.io/1183649', {
-  release: "a958d7e0ab72b02b5310ffcdbca4044ffdbeee15",
+  release: "0099d3ed061aa32bb3be621eecaa9fb9d4bb827b",
   debug: true
 }).addPlugin(__WEBPACK_IMPORTED_MODULE_4_raven_js_plugins_vue___default.a, __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]).install();
 
@@ -953,4 +953,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 },[1]);
-//# sourceMappingURL=app.5339fef7d2cd0b6dbf7c.js.map
+//# sourceMappingURL=app.2d92e2ea553c86d61205.js.map
