@@ -12748,7 +12748,7 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {global.SENTRY_RELEASE={};
-global.SENTRY_RELEASE.id="99d3ed061";
+global.SENTRY_RELEASE.id="123456627";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("DuR2")))
 
 /***/ }),
@@ -18368,4 +18368,4 @@ module.exports = {
 /***/ })
 
 });
-//# sourceMappingURL=vendor.00ca233188a679faa020.js.map
+//# sourceMappingURL=vendor.27de0b9a765217a1eaff.js.map
