@@ -12748,7 +12748,7 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {global.SENTRY_RELEASE={};
-global.SENTRY_RELEASE.id="5f126fd7e4e3fddf7e2232538d74e31afbe2673f";
+global.SENTRY_RELEASE.id="a128a20d83bb32dfd9c54191e65f956901e8e7cc";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("DuR2")))
 
 /***/ }),
@@ -18398,4 +18398,4 @@ module.exports = {
 /***/ })
 
 });
-//# sourceMappingURL=vendor.bd3b10e941eb74c70265.js.map
+//# sourceMappingURL=vendor.a938eb8cc9c1989d017c.js.map
