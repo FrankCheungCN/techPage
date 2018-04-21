@@ -12744,15 +12744,6 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "FTkx":
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {global.SENTRY_RELEASE={};
-global.SENTRY_RELEASE.id="a128a20d83bb32dfd9c54191e65f956901e8e7cc";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("DuR2")))
-
-/***/ }),
-
 /***/ "FZ+f":
 /***/ (function(module, exports) {
 
@@ -18398,4 +18389,4 @@ module.exports = {
 /***/ })
 
 });
-//# sourceMappingURL=vendor.a938eb8cc9c1989d017c.js.map
+//# sourceMappingURL=vendor.bc1cd6bb821c96139c90.js.map
