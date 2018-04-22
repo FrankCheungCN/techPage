@@ -376,7 +376,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 __WEBPACK_IMPORTED_MODULE_3_raven_js___default.a.config('https://2522b1744bae49e0b6d73029c4a65d7c@sentry.io/1183649', {
-  release: "e25238c128d4410e029bcbcd8041b9cf8d99c1f4",
+  release: "269490dcc46cb092c6ffe5986820c82ab2232dbc",
   debug: true
 }).addPlugin(__WEBPACK_IMPORTED_MODULE_4_raven_js_plugins_vue___default.a, __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]).install();
 
@@ -667,8 +667,8 @@ __webpack_require__("hKoQ").polyfill();
 
   methods: {
     testBugRecord: function testBugRecord() {
-      var d = [];
-      console.log(d[1][3]);
+      var eee = [];
+      console.log(eee[1][3]);
     },
     toTop: function toTop() {
       document.body.scrollTop = 0;
@@ -944,4 +944,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.e0e622bd5a19c6d8c095.js.map
+//# sourceMappingURL=app.5d6372b518f2386d8aba.js.map
