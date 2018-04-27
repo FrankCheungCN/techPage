@@ -376,7 +376,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 __WEBPACK_IMPORTED_MODULE_3_raven_js___default.a.config('https://2522b1744bae49e0b6d73029c4a65d7c@sentry.io/1183649', {
-  release: "269490dcc46cb092c6ffe5986820c82ab2232dbc",
+  release: "24e06dd63913ebf7f8fbfa0f74a4cfcefc0b4195",
   debug: true
 }).addPlugin(__WEBPACK_IMPORTED_MODULE_4_raven_js_plugins_vue___default.a, __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]).install();
 
@@ -602,10 +602,13 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__bower_components_axios_dist_axios_min__ = __webpack_require__("314i");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__bower_components_axios_dist_axios_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__bower_components_axios_dist_axios_min__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__("/ocq");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue__ = __webpack_require__("7+uW");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_toConsumableArray__ = __webpack_require__("Gu7T");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_toConsumableArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_toConsumableArray__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bower_components_axios_dist_axios_min__ = __webpack_require__("314i");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bower_components_axios_dist_axios_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__bower_components_axios_dist_axios_min__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_router__ = __webpack_require__("/ocq");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue__ = __webpack_require__("7+uW");
+
 //
 //
 //
@@ -641,7 +644,7 @@ var Component = normalizeComponent(
 
 
 
-__WEBPACK_IMPORTED_MODULE_2_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]);
+__WEBPACK_IMPORTED_MODULE_3_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */]);
 
 __webpack_require__("hKoQ").polyfill();
 
@@ -732,7 +735,7 @@ __webpack_require__("hKoQ").polyfill();
 
       this.curPage = 1;
       this.curType = param;
-      __WEBPACK_IMPORTED_MODULE_0__bower_components_axios_dist_axios_min___default.a.get('https://gank.io/api/data/' + this.curType + '/10/1').then(function (response) {
+      __WEBPACK_IMPORTED_MODULE_1__bower_components_axios_dist_axios_min___default.a.get('https://gank.io/api/data/' + this.curType + '/10/1').then(function (response) {
         _this2.responseData = response.data.results;
       }).catch(function (error) {
         console.log(error);
@@ -749,8 +752,11 @@ __webpack_require__("hKoQ").polyfill();
         _this3.scroll = _this3.getOffsetVal().top;
         if (oLastTop <= _this3.scroll + windowHeight) {
           _this3.curPage += 1;
-          __WEBPACK_IMPORTED_MODULE_0__bower_components_axios_dist_axios_min___default.a.get('https://gank.io/api/data/' + _this3.curType + '/10/' + _this3.curPage).then(function (response) {
-            _this3.responseData.push.apply(_this3.responseData, response.data.results);
+          __WEBPACK_IMPORTED_MODULE_1__bower_components_axios_dist_axios_min___default.a.get('https://gank.io/api/data/' + _this3.curType + '/10/' + _this3.curPage).then(function (response) {
+            var _responseData;
+
+            // this.responseData.push.apply(this.responseData, response.data.results)
+            (_responseData = _this3.responseData).push.apply(_responseData, __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_toConsumableArray___default()(response.data.results));
           }).catch(function (error) {
             console.log(error);
           });
@@ -944,4 +950,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.5d6372b518f2386d8aba.js.map
+//# sourceMappingURL=app.b52853ae0ebc20ca3dde.js.map
